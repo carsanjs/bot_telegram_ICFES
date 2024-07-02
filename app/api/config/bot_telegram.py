@@ -1,5 +1,5 @@
 import telebot
-
+from api.endpoint.icfes import main
 
 #INICIAR CONEXIÓN
 bot = telebot.TeleBot('TOKEN', parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
